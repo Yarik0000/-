@@ -1,0 +1,52 @@
+
+body {
+  background-image: url(https://freski-fotooboi.ru/images/catalog/3110249.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:
+}
+.btn-group button {
+    background-color: #3e403e; /* Green background */
+    border: 10px solid black; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #c3c7c3;
+}
+.English{
+  background-color: #99a3f7;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: 5px;
+  margin: 20px;
+  width: 100%;
+  box-shadow: 4px 4px 4px 4px #000;
+}
+.Present Simple{
+ 
+  padding: 1px;
+  margin-bottom: 20px;
+  display: 5px;
+  margin: 20px;
+  width: 100%;
+  margin-left: -420px;
+  
+}
